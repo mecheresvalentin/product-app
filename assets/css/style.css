@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+    height: 50px;
+    margin-bottom: 15px;
+}
+.navbar-brand {
+    color: #fff !important;
+}
+.color-box {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+img {
+    border: 1px solid #d8d8d8;
+    width: 80%;
+    margin: 40px;
+    box-shadow: 0px .5px 1px #d8d8d8;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media (max-width: 992px) {
+    .color-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
