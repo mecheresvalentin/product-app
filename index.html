@@ -16,7 +16,7 @@
         <a class="navbar-brand" href>Product App</a>
     </nav>
     <div id="app">
-        <p class="btn btn-dark float-right mx-4">Cart({{cart.length}})</p>
+        <p class="btn btn-dark mx-4">Cart({{cart.length}})</p>
         <Product :premium="premium" @add-to-cart="updateCart"></Product>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
